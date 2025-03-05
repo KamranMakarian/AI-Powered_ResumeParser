@@ -41,7 +41,7 @@ CREATE TABLE applicant (
   id SERIAL PRIMARY KEY,
   firstname VARCHAR(100),
   lastname VARCHAR(100),
-  email VARCHAR(200) UNIQUE
+  email VARCHAR(200) UNIQUE,
   created_at timestamp DEFAULT CURRENT_TIMESTAMP,
   updated_at timestamp DEFAULT CURRENT_TIMESTAMP  
 );
